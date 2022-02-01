@@ -1,0 +1,85 @@
+h1 {
+  display: flex;
+  margin-top: 0px;
+  padding-left: 30px;
+  color: #444;
+  font-size: 3em;
+  font-family: tahoma;
+}
+.header-bg {
+  box-shadow: -2px -3px 16px -1px rgba(0, 0, 0, 0.43);
+  background-image: url("/img/header-bg.jpg");
+  border-radius: 10px;
+  width: auto;
+  height: 500px;
+}
+.my-name,
+.hey {
+  display: flex;
+  font-family: garamond;
+  color: #444;
+}
+.my-name {
+  font-size: 4em;
+  padding-left: 110px;
+}
+.hey {
+  padding-top: 20px;
+  font-size: 2em;
+  padding-left: 55px;
+}
+
+p {
+  text-align: left;
+  font-size: 0.8em;
+  width: auto;
+  font-family: garamond;
+  text-indent: 50px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding: 10px;
+}
+.grid-item {
+  border: none;
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.grid-item:hover {
+  transform: scale(1.05) translateY(-3px);
+  box-shadow: 1px 15px 35px -10px rgba(0, 0, 0, 0.4);
+  background-color: rgb(245, 245, 245);
+}
+.frame,
+img {
+  width: 350px;
+  height: 250px;
+  box-shadow: -1px -2px 16px -1px rgba(0, 0, 0, 0.43);
+  padding: 0.5rem;
+  background-color: white;
+}
+footer,
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444;
+  color: whitesmoke;
+  box-shadow: -2px -3px 16px -1px rgba(0, 0, 0, 0.43);
+  font-family: tahoma;
+  font-size: 1.5em;
+}
+nav {
+  width: 350px;
+  height: 50px;
+}
+.nav-a {
+  margin: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.nav-a:active {
+  color: rgb(21, 145, 31);
+}
